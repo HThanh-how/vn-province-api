@@ -1,6 +1,12 @@
 import { cityData } from '../../../app/database/province.tsx';
-
-export default function handler(req, res) {
+import cors from 'nextjs-cors';
+export default async function handler(req, res) {
+    await cors(req, res, {
+        // Options
+        methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+        origin: '*',
+        optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+    });
   const provinceData = cityData.map(({ districts, ...item }) => item);
   res.status(200).json(provinceData);
 }
