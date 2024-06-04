@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Vietnam Province API](https://vn-province-api.vercel.app). is a RESTful API that provides a comprehensive list of provinces, districts, and wards in Vietnam. The API allows users to retrieve detailed information about each administrative division, making it useful for various applications that require geographical data of Vietnam.
+[Vietnam Province API(https://vn-province-api.vercel.app) is a RESTful API that provides a comprehensive list of provinces, districts, and wards in Vietnam. The API allows users to retrieve detailed information about each administrative division, making it useful for various applications that require geographical data of Vietnam.
 
 ## Quick Reference
 
